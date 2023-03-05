@@ -682,7 +682,7 @@ ul.sub-menu-active{
 
 /****/
 .content_news{
-    background-image: url(images/image\ 6.png);
+    background-image: url('images/image\ 6.png');
 }
 .content{
     max-height: 100%;
@@ -790,9 +790,88 @@ letter-spacing: -0.07em;
 }
 
 .wrapper_about_school{
-    background-image: url('images/image\ 6.png');
+
     min-height: 100%;
     overflow: hidden;
+}
+
+
+
+.history_title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.history_text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 42px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.rightimg2  {
+    width: 630px;
+    height: 480px;
+    border: 2px solid #21304C;
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.history_text_text{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: center;
+}
+
+.children_text{
+    margin: 0 auto;
+    max-width: 1570px;
+    text-align: center;
+}
+
+.children_data{
+    margin-left: 10%;
+}
+
+.rightimg2  {
+    width: 179px;
+    height: 179px;
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.org_three_block{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.org_three_block_img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.org_three_block_img_img{
+    height: 350px;
+    width: 350px;
+}
+
+.wrapper_about_school_2{
 }
 /**Cетка адаптива
 @media(max-width: 1780px){
